@@ -1,0 +1,440 @@
+Ciberseguridad y Continuidad<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesús Adrián Mateo Leyva | Consultor de Infraestructura y Ciberseguridad TI</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-scroll {
+            display: flex;
+            width: max-content;
+            animation: scroll 30s linear infinite;
+        }
+        .animate-scroll:hover {
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+
+    <!-- Navegación -->
+    <nav class="fixed top-0 w-full bg-slate-900/90 backdrop-blur-md border-b border-slate-800 z-50">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <a href="#" class="flex items-center space-x-2">
+                    <img src="Logo.png" alt="Logo Jesús Mateo Leyva" class="h-10 w-auto object-contain">
+                    <span class="text-sm font-bold tracking-wider text-white hidden sm:inline">JESÚS <span class="text-cyan-400">MATEO</span></span>
+                </a>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#sobre-mi" class="hover:text-cyan-400 transition">Sobre mí</a>
+                <a href="#servicios" class="hover:text-cyan-400 transition">Servicios</a>
+                <a href="#tecnologias" class="hover:text-cyan-400 transition">Tecnologías</a>
+                <a href="#contacto" class="hover:text-cyan-400 transition">Contacto</a>
+		<a href="#clientes" class="hover:text-cyan-400 transition">Clientes</a>
+                <!-- Enlace rápido a LinkedIn en la barra de navegación -->
+                <a href="https://www.linkedin.com/in/jesus-mateo-leyva/" target="_blank" class="hover:text-cyan-400 transition flex items-center gap-1.5"><i class="fa-brands fa-linkedin text-base"></i> LinkedIn</a>
+            </div>
+            <div>
+                <a href="#contacto" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold px-5 py-2.5 rounded-lg transition shadow-lg shadow-cyan-500/20">
+                    Contactar
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <header class="pt-40 pb-20 md:pt-48 md:pb-28 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-center relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-6 relative z-10 flex flex-col items-center">
+            
+            <div class="inline-flex items-center space-x-2 bg-slate-900/80 border border-cyan-500/30 px-4 py-1.5 rounded-full mb-8 shadow-inner backdrop-blur-sm">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span class="text-xs md:text-sm text-cyan-300 font-medium">Disponible para proyectos de infraestructura crítica</span>
+            </div>
+
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white leading-tight mb-6">
+                Infraestructura TI, Data Centers <br class="hidden sm:inline"> y <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">Ciberseguridad</span> a Nivel Avanzado
+            </h1>
+
+            <p class="text-slate-400 text-base md:text-lg max-w-2xl mb-10 leading-relaxed">
+                +20 años de experiencia optimizando centros de datos y asegurando la continuidad operativa de grandes empresas.
+            </p>
+
+            <div>
+                <a href="https://wa.me/51918869059?text=Hola%20Jesús,%20estoy%20interesado%20en%20una%20consultoría%20de%20infraestructura%20o%20ciberseguridad." target="_blank" class="inline-flex items-center space-x-3 bg-gradient-to-r from-cyan-500 to-emerald-400 hover:from-cyan-400 hover:to-emerald-300 text-slate-950 font-bold px-8 py-4 rounded-xl text-base transition shadow-xl shadow-cyan-500/20 transform hover:-translate-y-0.5">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    <span>Cotizar Soporte por WhatsApp</span>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Sección de Estadísticas -->
+    <section class="pb-24 bg-slate-950">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-slate-900/80 border border-slate-800 p-8 rounded-2xl text-center hover:border-cyan-500/40 transition">
+                    <div class="w-12 h-12 bg-cyan-500/10 border border-cyan-500/20 rounded-xl mx-auto flex items-center justify-center text-cyan-400 text-xl mb-4">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <h3 class="text-4xl font-extrabold text-cyan-400 mb-2 font-mono">+20</h3>
+                    <p class="text-slate-300 text-sm font-medium">Años de Experiencia</p>
+                </div>
+                <div class="bg-slate-900/80 border border-slate-800 p-8 rounded-2xl text-center hover:border-cyan-500/40 transition">
+                    <div class="w-12 h-12 bg-cyan-500/10 border border-cyan-500/20 rounded-xl mx-auto flex items-center justify-center text-cyan-400 text-xl mb-4">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <h3 class="text-4xl font-extrabold text-cyan-400 mb-2 font-mono">N3</h3>
+                    <p class="text-slate-300 text-sm font-medium">Soporte Nivel 3 Avanzado</p>
+                </div>
+                <div class="bg-slate-900/80 border border-slate-800 p-8 rounded-2xl text-center hover:border-cyan-500/40 transition">
+                    <div class="w-12 h-12 bg-cyan-500/10 border border-cyan-500/20 rounded-xl mx-auto flex items-center justify-center text-cyan-400 text-xl mb-4">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3 class="text-4xl font-extrabold text-cyan-400 mb-2 font-mono">100%</h3>
+                    <p class="text-slate-300 text-sm font-medium">Centros de Datos Optimizados</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="py-24 bg-slate-900 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-white mb-6">Perfil Profesional</h2>
+                <p class="text-slate-300 text-lg leading-relaxed mb-8">
+                    Ingeniero de Sistemas / CIP 353091, especializado en la administración avanzada de servidores físicos y virtuales, ciberseguridad, gestión de servicios tecnológicos y continuidad operativa. Con una sólida trayectoria corporativa e independiente liderando proyectos tecnológicos críticos.
+                </p>
+                <div class="flex flex-wrap justify-center gap-3 mb-8">
+                    <span class="bg-slate-950 border border-slate-800 text-cyan-400 px-4 py-2 rounded-lg text-sm font-medium">Liderazgo</span>
+                    <span class="bg-slate-950 border border-slate-800 text-cyan-400 px-4 py-2 rounded-lg text-sm font-medium">Ciberseguridad</span>
+                    <span class="bg-slate-950 border border-slate-800 text-cyan-400 px-4 py-2 rounded-lg text-sm font-medium">Gestión de Incidentes</span>
+                    <span class="bg-slate-950 border border-slate-800 text-cyan-400 px-4 py-2 rounded-lg text-sm font-medium">Proactividad</span>
+                    <span class="bg-slate-950 border border-slate-800 text-cyan-400 px-4 py-2 rounded-lg text-sm font-medium">Orientación a Resultados</span>
+                </div>
+
+                <!-- Botones para Descargar CV y ver LinkedIn en la sección Sobre Mí -->
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="https://drive.google.com/file/d/15ExsIcNPYAka7pXR35fnjB8lwl15mtyw/view?usp=drive_link" target="_blank" class="inline-flex items-center space-x-2 bg-slate-950 hover:bg-slate-800 text-cyan-400 border border-cyan-500/30 font-semibold px-6 py-3 rounded-xl text-sm transition shadow-md">
+                        <i class="fa-solid fa-file-arrow-down text-lg"></i>
+                        <span>Descargar CV</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jesus-mateo-leyva/" target="_blank" class="inline-flex items-center space-x-2 bg-slate-950 hover:bg-slate-800 text-cyan-400 border border-cyan-500/30 font-semibold px-6 py-3 rounded-xl text-sm transition shadow-md">
+                        <i class="fa-brands fa-linkedin text-lg"></i>
+                        <span>Ver Perfil en LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios Especializados -->
+    <section id="servicios" class="py-24 bg-slate-950 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Servicios <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">Especializados</span></h2>
+                <p class="text-slate-400 text-sm md:text-base">Soluciones de infraestructura TI de nivel empresarial, diseñadas para garantizar continuidad operativa y seguridad total.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Servicio 1 -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-cyan-500/50 transition">
+                    <div class="w-12 h-12 bg-cyan-500/10 border border-cyan-500/20 rounded-xl flex items-center justify-center text-cyan-400 text-xl mb-6">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Gestión y Centralización de Data Centers</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Migración, consolidación y continuidad operativa de centros de datos de alta disponibilidad.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="inline-flex items-center text-xs font-medium text-slate-300 bg-slate-950 border border-slate-800 px-3 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-circle-check text-cyan-400 mr-1.5 text-xs"></i> Migración sin downtime
+                        </span>
+                        <span class="inline-flex items-center text-xs font-medium text-slate-300 bg-slate-950 border border-slate-800 px-3 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-circle-check text-cyan-400 mr-1.5 text-xs"></i> Consolidación de servidores
+                        </span>
+                        <span class="inline-flex items-center text-xs font-medium text-slate-300 bg-slate-950 border border-slate-800 px-3 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-circle-check text-cyan-400 mr-1.5 text-xs"></i> Alta disponibilidad
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-cyan-500/50 transition">
+                    <div class="w-12 h-12 bg-cyan-500/10 border border-cyan-500/20 rounded-xl flex items-center justify-center text-cyan-400 text-xl mb-6">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Infraestructura de Redes y Comunicaciones</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Cableado estructurado, redes complejas y firewalls de nivel empresarial.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="inline-flex items-center text-xs font-medium text-slate-300 bg-slate-950 border border-slate-800 px-3 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-circle-check text-cyan-400 mr-1.5 text-xs"></i> Cableado estructurado
+                        </span>
+                        <span class="inline-flex items-center text-xs font-medium text-slate-300 bg-slate-950 border border-slate-800 px-3 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-circle-check text-cyan-400 mr-1.5 text-xs"></i> Redes complejas multi-sitio
+                        </span>
+                        <span class="inline-flex items-center text-xs font-medium text-slate-300 bg-slate-950 border border-slate-800 px-3 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-circle-check text-cyan-400 mr-1.5 text-xs"></i> Firewalls perimetrales
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-cyan-500/50 transition">
+                    <div class="w-12 h-12 bg-cyan-500/10 border border-cyan-500/20 rounded-xl flex items-center justify-center text-cyan-400 text-xl mb-6">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Ciberseguridad y Continuidad de Negocios</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Fortinet, Barracuda, VPNs y políticas de seguridad perimetral avanzadas.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="inline-flex items-center text-xs font-medium text-slate-300 bg-slate-950 border border-slate-800 px-3 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-circle-check text-cyan-400 mr-1.5 text-xs"></i> Fortinet & Barracuda
+                        </span>
+                        <span class="inline-flex items-center text-xs font-medium text-slate-300 bg-slate-950 border border-slate-800 px-3 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-circle-check text-cyan-400 mr-1.5 text-xs"></i> VPNs site-to-site
+                        </span>
+                        <span class="inline-flex items-center text-xs font-medium text-slate-300 bg-slate-950 border border-slate-800 px-3 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-circle-check text-cyan-400 mr-1.5 text-xs"></i> Políticas perimetrales
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-cyan-500/50 transition">
+                    <div class="w-12 h-12 bg-cyan-500/10 border border-cyan-500/20 rounded-xl flex items-center justify-center text-cyan-400 text-xl mb-6">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Respaldo y Recuperación de Información</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Sistemas avanzados de backup con VMware, Acronis y Veritas.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="inline-flex items-center text-xs font-medium text-slate-300 bg-slate-950 border border-slate-800 px-3 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-circle-check text-cyan-400 mr-1.5 text-xs"></i> VMware backup
+                        </span>
+                        <span class="inline-flex items-center text-xs font-medium text-slate-300 bg-slate-950 border border-slate-800 px-3 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-circle-check text-cyan-400 mr-1.5 text-xs"></i> Acronis Cyber Protect
+                        </span>
+                        <span class="inline-flex items-center text-xs font-medium text-slate-300 bg-slate-950 border border-slate-800 px-3 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-circle-check text-cyan-400 mr-1.5 text-xs"></i> Veritas Backup Exec
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Tecnologías y Especialidades -->
+    <section id="tecnologias" class="py-24 bg-slate-900 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Tecnologías y <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">Especialidades</span></h2>
+                <p class="text-slate-400 text-sm md:text-base">Stack tecnológico de nivel empresarial dominado a profundidad para proteger y optimizar infraestructura crítica.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Tarjeta 1 -->
+                <div class="bg-slate-950 border border-slate-800 p-6 rounded-2xl hover:border-cyan-500/50 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-cyan-500/10 border border-cyan-500/20 rounded-xl flex items-center justify-center text-cyan-400 text-xl mb-6">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+                        <h3 class="text-base font-bold text-white tracking-wider mb-6">INFRAESTRUCTURA Y VIRTUALIZACIÓN</h3>
+                        <div class="space-y-3">
+                            <div class="bg-slate-900/90 border border-slate-800/80 px-4 py-3 rounded-xl flex items-center space-x-3 text-slate-200 text-sm">
+                                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                <span>VMware</span>
+                            </div>
+                            <div class="bg-slate-900/90 border border-slate-800/80 px-4 py-3 rounded-xl flex items-center space-x-3 text-slate-200 text-sm">
+                                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                <span>Microsoft Azure</span>
+                            </div>
+                            <div class="bg-slate-900/90 border border-slate-800/80 px-4 py-3 rounded-xl flex items-center space-x-3 text-slate-200 text-sm">
+                                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                <span>Amazon Web Services</span>
+                            </div>
+                       	    <div class="bg-slate-900/90 border border-slate-800/80 px-4 py-3 rounded-xl flex items-center space-x-3 text-slate-200 text-sm">
+                                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                <span>HPE, Lenovo, Dell</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="bg-slate-950 border border-slate-800 p-6 rounded-2xl hover:border-cyan-500/50 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-cyan-500/10 border border-cyan-500/20 rounded-xl flex items-center justify-center text-cyan-400 text-xl mb-6">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <h3 class="text-base font-bold text-white tracking-wider mb-6">SEGURIDAD Y NETWORKING</h3>
+                        <div class="space-y-3">
+                            <div class="bg-slate-900/90 border border-slate-800/80 px-4 py-3 rounded-xl flex items-center space-x-3 text-slate-200 text-sm">
+                                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                <span>Fortinet</span>
+                            </div>
+                            <div class="bg-slate-900/90 border border-slate-800/80 px-4 py-3 rounded-xl flex items-center space-x-3 text-slate-200 text-sm">
+                                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                <span>WatchGuard UTM</span>
+                            </div>
+                            <div class="bg-slate-900/90 border border-slate-800/80 px-4 py-3 rounded-xl flex items-center space-x-3 text-slate-200 text-sm">
+                                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                <span>Pulse Secure (VPN)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 3 -->
+                <div class="bg-slate-950 border border-slate-800 p-6 rounded-2xl hover:border-cyan-500/50 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-cyan-500/10 border border-cyan-500/20 rounded-xl flex items-center justify-center text-cyan-400 text-xl mb-6">
+                            <i class="fa-solid fa-hard-drive"></i>
+                        </div>
+                        <h3 class="text-base font-bold text-white tracking-wider mb-6">RESPALDO DE DATOS</h3>
+                        <div class="space-y-3">
+                            <div class="bg-slate-900/90 border border-slate-800/80 px-4 py-3 rounded-xl flex items-center space-x-3 text-slate-200 text-sm">
+                                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                <span>Acronis Cyber Protect</span>
+                            </div>
+                            <div class="bg-slate-900/90 border border-slate-800/80 px-4 py-3 rounded-xl flex items-center space-x-3 text-slate-200 text-sm">
+                                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                <span>Veritas Backup Exec</span>
+                            </div>
+                            <div class="bg-slate-900/90 border border-slate-800/80 px-4 py-3 rounded-xl flex items-center space-x-3 text-slate-200 text-sm">
+                                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                <span>Barracuda Backup</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 4 -->
+                <div class="bg-slate-950 border border-slate-800 p-6 rounded-2xl hover:border-cyan-500/50 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-cyan-500/10 border border-cyan-500/20 rounded-xl flex items-center justify-center text-cyan-400 text-xl mb-6">
+                            <i class="fa-solid fa-envelope-circle-check"></i>
+                        </div>
+                        <h3 class="text-base font-bold text-white tracking-wider mb-6">FILTRADO Y CORREO</h3>
+                        <div class="space-y-3">
+                            <div class="bg-slate-900/90 border border-slate-800/80 px-4 py-3 rounded-xl flex items-center space-x-3 text-slate-200 text-sm">
+                                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                <span>Barracuda Web Filter</span>
+                            </div>
+                            <div class="bg-slate-900/90 border border-slate-800/80 px-4 py-3 rounded-xl flex items-center space-x-3 text-slate-200 text-sm">
+                                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                                <span>Barracuda Spam & Virus Firewall</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Nueva Sección CTA de WhatsApp (Contacto) -->
+    <section id="contacto" class="py-24 bg-slate-950 border-t border-slate-800 text-center relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-6 relative z-10 flex flex-col items-center">
+            
+            <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight text-white mb-6">
+                ¿Listo para <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">fortalecer</span> tu infraestructura?
+            </h2>
+
+            <p class="text-slate-400 text-base md:text-lg max-w-xl mb-10 leading-relaxed">
+                Conversemos sobre cómo puedo ayudar a tu organización a alcanzar máxima disponibilidad, seguridad y continuidad operativa.
+            </p>
+
+            <div>
+                <a href="https://wa.me/51918869059?text=Hola%20Jesús,%20estoy%20interesado%20en%20fortalecer%20la%20infraestructura%20de%20mi%20organización." target="_blank" class="inline-flex items-center space-x-3 bg-gradient-to-r from-cyan-500 to-emerald-400 hover:from-cyan-400 hover:to-emerald-300 text-slate-950 font-bold px-8 py-4 rounded-xl text-base transition shadow-xl shadow-cyan-500/20 transform hover:-translate-y-0.5">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    <span>Cotizar Soporte por WhatsApp</span>
+                    <i class="fa-solid fa-arrow-right text-sm ml-1"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección Nuestros Clientes (Ubicado después de Contacto / Carrusel Infinito a Color) -->
+    <section id="clientes" class="py-20 bg-slate-900 border-t border-slate-800 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 mb-12 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Nuestros <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">Clientes</span></h2>
+            <p class="text-slate-400 text-sm md:text-base">Empresas e instituciones que confían en nuestra experiencia y soporte tecnológico.</p>
+        </div>
+
+        <div class="relative w-full overflow-hidden">
+            <!-- Contenedor móvil / carrusel infinito -->
+            <div class="animate-scroll flex items-center space-x-12 py-4">
+                <!-- Set 1 -->
+                <div class="flex items-center justify-center min-w-[200px] h-24 bg-slate-950/60 border border-slate-800/80 rounded-xl p-4 shadow-lg hover:border-cyan-500/40 transition">
+                    <img src="ATU.png" alt="ATU" class="max-h-14 w-auto object-contain transition duration-300">
+                </div>
+                <div class="flex items-center justify-center min-w-[200px] h-24 bg-slate-950/60 border border-slate-800/80 rounded-xl p-4 shadow-lg hover:border-cyan-500/40 transition">
+                    <img src="Elifarma.png" alt="Elifarma" class="max-h-14 w-auto object-contain transition duration-300">
+                </div>
+                <div class="flex items-center justify-center min-w-[200px] h-24 bg-slate-950/60 border border-slate-800/80 rounded-xl p-4 shadow-lg hover:border-cyan-500/40 transition">
+                    <img src="MInolPeru.png" alt="MInolPeru" class="max-h-14 w-auto object-contain transition duration-300">
+                </div>
+                <div class="flex items-center justify-center min-w-[200px] h-24 bg-slate-950/60 border border-slate-800/80 rounded-xl p-4 shadow-lg hover:border-cyan-500/40 transition">
+                    <img src="nucorsac.png" alt="nucorsac" class="max-h-14 w-auto object-contain transition duration-300">
+                </div>
+                
+                <!-- Set 2 (Duplicado para lograr el efecto infinito continuo) -->
+                <div class="flex items-center justify-center min-w-[200px] h-24 bg-slate-950/60 border border-slate-800/80 rounded-xl p-4 shadow-lg hover:border-cyan-500/40 transition">
+                    <img src="ATU.png" alt="ATU" class="max-h-14 w-auto object-contain transition duration-300">
+                </div>
+                <div class="flex items-center justify-center min-w-[200px] h-24 bg-slate-950/60 border border-slate-800/80 rounded-xl p-4 shadow-lg hover:border-cyan-500/40 transition">
+                    <img src="Elifarma.png" alt="Elifarma" class="max-h-14 w-auto object-contain transition duration-300">
+                </div>
+                <div class="flex items-center justify-center min-w-[200px] h-24 bg-slate-950/60 border border-slate-800/80 rounded-xl p-4 shadow-lg hover:border-cyan-500/40 transition">
+                    <img src="MInolPeru.png" alt="MInolPeru" class="max-h-14 w-auto object-contain transition duration-300">
+                </div>
+                <div class="flex items-center justify-center min-w-[200px] h-24 bg-slate-950/60 border border-slate-800/80 rounded-xl p-4 shadow-lg hover:border-cyan-500/40 transition">
+                    <img src="nucorsac.png" alt="nucorsac" class="max-h-14 w-auto object-contain transition duration-300">
+		</div>
+                <div class="flex items-center justify-center min-w-[200px] h-24 bg-slate-950/60 border border-slate-800/80 rounded-xl p-4 shadow-lg hover:border-cyan-500/40 transition">
+                    <img src="Mafort.png" alt="nucorsac" class="max-h-14 w-auto object-contain transition duration-300">
+                </div>
+ 		<div class="flex items-center justify-center min-w-[200px] h-24 bg-slate-950/60 border border-slate-800/80 rounded-xl p-4 shadow-lg hover:border-cyan-500/40 transition">
+                    <img src="Palomino.png" alt="nucorsac" class="max-h-14 w-auto object-contain transition duration-300">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página con enlaces a LinkedIn, CV y WhatsApp -->
+    <footer class="bg-slate-950 border-t border-slate-800 py-8 text-slate-500 text-sm">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>&copy; 2026 Jesús Adrián Mateo Leyva. Todos los derechos reservados.</p>
+            <div class="flex space-x-6 text-slate-400">
+                <a href="https://www.linkedin.com/in/jesus-mateo-leyva/" target="_blank" class="hover:text-cyan-400 transition" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin text-xl"></i>
+                </a>
+                <a href="https://drive.google.com/file/d/15ExsIcNPYAka7pXR35fnjB8lwl15mtyw/view?usp=drive_link" target="_blank" class="hover:text-cyan-400 transition" title="Curriculum Vitae">
+                    <i class="fa-solid fa-file-lines text-xl"></i>
+                </a>
+                <a href="https://wa.me/51918869059" target="_blank" class="hover:text-cyan-400 transition" title="WhatsApp">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
